@@ -51,13 +51,16 @@ a {
     width: var(--width);
 }
 
+audio {
+    margin: 0;
+    padding: 0 10%;
+}
 
 /* ----------- ANIMATIONS [INDEX] -----------  */
 
 .animate__heartBeat {
     animation: heartBeat; 
-    animation-delay: 4s;
-    animation-duration: 3s;
+    animation-duration: 6s;
     animation-fill-mode: forwards;
     color: var(--gray);
     font-size: 8vh;
@@ -67,7 +70,6 @@ a {
 .animate__flash {
     /* border: var(--border); */
     animation: flash;
-    animation-delay: 6s;
     animation-duration: 5s;
     color: var(--gray);
     font-size: 2vh;
